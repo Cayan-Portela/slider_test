@@ -14,7 +14,9 @@ shinyUI(fluidPage(
                                         animate = animationOptions(interval = 100)),
                             verbatimTextOutput("valor_slider")
                                       
-                    )
+                    ),
+  
+  leafletOutput("map", width="100%", height="100%")
                                       
      
           ))                   
