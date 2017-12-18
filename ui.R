@@ -1,3 +1,5 @@
+library(shiny)
+
 shinyUI(fluidPage(
   
               # Shiny versions prior to 0.11 should use class = "modal" instead.
